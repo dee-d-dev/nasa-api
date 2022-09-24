@@ -1,0 +1,31 @@
+{
+  "name": "NASA server",
+  "version": "1.0.0",
+  "description": "NASA spaceship launch project",
+  "main": "src/server.js",
+  "scripts": {
+    "watch": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "Adedxtun",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.3.0",
+    "dotenv": "^16.0.2",
+    "epxress": "^0.0.1-security",
+    "jest": "^29.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "planets_project": "file:..",
+    "pm2": "^5.2.0",
+    "supertest": "^6.2.4"
+  }
+}
